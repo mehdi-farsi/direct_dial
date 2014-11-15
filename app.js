@@ -19,7 +19,7 @@ var server = http.createServer(function(req, res) {
         response.addHangup();
       } else if (toNumber.substring(0,3) == "sip:") {
         console.log('SIP');
-        
+
       } else {
 
       };
@@ -29,4 +29,4 @@ var server = http.createServer(function(req, res) {
     }
     res.end();
 });
-server.listen(8080);
+server.listen(process.env.PORT || 8080);
