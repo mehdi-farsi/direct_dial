@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json aircall-direct_dial@1.0.0 No repository field.
+5 warn package.json aircall-direct_dial@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/mehdi/Documents/projects/aircall-direct_dial',
+7 verbose install   [ 'plivo-node' ] ]
+8 info preinstall aircall-direct_dial@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'plivo-node@0.1.0', null ]
+11 verbose cache add name=undefined spec="plivo-node@0.1.0" args=["plivo-node@0.1.0",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'plivo-node@0.1.0',
+12 verbose parsed url   path: 'plivo-node@0.1.0',
+12 verbose parsed url   href: 'plivo-node@0.1.0' }
+13 verbose cache add name="plivo-node" spec="0.1.0" args=["plivo-node","0.1.0"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '0.1.0',
+14 verbose parsed url   path: '0.1.0',
+14 verbose parsed url   href: '0.1.0' }
+15 verbose addNamed [ 'plivo-node', '0.1.0' ]
+16 verbose addNamed [ '0.1.0', '0.1.0' ]
+17 silly lockFile c15873c0-plivo-node-0-1-0 plivo-node@0.1.0
+18 verbose lock plivo-node@0.1.0 /Users/mehdi/.npm/c15873c0-plivo-node-0-1-0.lock
+19 verbose request where is /plivo-node
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 82dccfef0838a252
+22 verbose url raw /plivo-node
+23 verbose url resolving [ 'https://registry.npmjs.org/', './plivo-node' ]
+24 verbose url resolved https://registry.npmjs.org/plivo-node
+25 verbose request where is https://registry.npmjs.org/plivo-node
+26 info trying registry request attempt 1 at 12:28:42
+27 http GET https://registry.npmjs.org/plivo-node
+28 http 200 https://registry.npmjs.org/plivo-node
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Sat, 15 Nov 2014 11:28:43 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"1N1B3QEZSTO1I83IW01JET8EC"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '13127',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1416050922.950926,VS0,VE532',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly lockFile c15873c0-plivo-node-0-1-0 plivo-node@0.1.0
+31 silly lockFile c15873c0-plivo-node-0-1-0 plivo-node@0.1.0
+32 error Error: version not found: plivo-node@0.1.0
+32 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:125:12
+32 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+32 error     at Object.oncomplete (fs.js:107:15)
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Darwin 13.4.0
+35 error command "node" "/usr/local/bin/npm" "install"
+36 error cwd /Users/mehdi/Documents/projects/aircall-direct_dial
+37 error node -v v0.10.33
+38 error npm -v 1.4.28
+39 verbose exit [ 1, true ]

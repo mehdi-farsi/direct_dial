@@ -1,0 +1,14 @@
+{
+  "name": "aircall-direct_dial",
+  "version": "1.0.0",
+  "description": "Example of asnwerURL response using NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehdi FARSI",
+  "license": "ISC",
+  "dependencies" : {
+    "plivo-node" : "~0.2.5"
+  }
+}
