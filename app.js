@@ -8,7 +8,6 @@ var server = http.createServer(function(req, res) {
     var page = url.parse(req.url).pathname;
     var params = querystring.parse(url.parse(req.url).query);
 
-    res.writeHead(200, {"Content-Type": "text/xml"});
     if (page == '/dial') {
       var toNumber = params['To'] || '';
       var fromNumber = params['CLID'] || (params['From'] || '');
@@ -24,6 +23,7 @@ var server = http.createServer(function(req, res) {
         dial.addNumber(toNumber);
       };
     }
+    res.writeHead(200, {"Content-Type": "text/xml"});
     res.end(response.toXML());
 });
 server.listen(process.env.PORT || 8080);
